@@ -10,3 +10,6 @@ function solution(left, right) {
     }
     return answer;
 }
+/*
+Number.isInteger(Math.sqrt(i)) ? sum -= i : sum += i
+*/
