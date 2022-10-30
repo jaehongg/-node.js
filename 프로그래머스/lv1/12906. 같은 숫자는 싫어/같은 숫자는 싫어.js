@@ -9,3 +9,11 @@ function solution(arr)
     
     return answer;
 }
+/*
+ const stack = [];
+    const queue = [...arr];
+    for (const q of queue) {
+        stack[stack.length-1] !== q && stack.push(q);
+    }
+    return stack;
+*/
