@@ -7,3 +7,6 @@ function solution(array, n) {
     }
     return answer;
 }
+/*
+return array.filter(a => a===n).length
+*/
