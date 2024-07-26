@@ -4,4 +4,6 @@ function solution(array, height) {
     array.forEach(x =>  {if(x > height) number++});
   
    return number;
+    
+    // array.filter(x => x > height).length
 }
