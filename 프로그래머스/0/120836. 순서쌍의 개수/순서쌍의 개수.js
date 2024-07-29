@@ -1,10 +1,9 @@
 function solution(n) {
     var answer = 0;
-    var maxLength = Math.sqrt(n)
+   
+    for(let i = 0; i < Math.sqrt(n); i++){
+        if(n % i === 0) answer += 2
+    }
     
-    for(var i = 1; i<=maxLength; i++)
-        for (var j = n; j>0; j--)
-            if(j * i === n) 
-                answer++
-    return Number.isInteger(maxLength) ? answer= answer * 2 -1 : answer *=2;
+    return Number.isInteger(Math.sqrt(n)) ? answer += 1 : answer;
 }
