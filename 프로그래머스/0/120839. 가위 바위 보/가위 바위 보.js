@@ -10,6 +10,5 @@ function solution(rsp) {
         if(item[i] === '5')
             result.push('2')
     }
-    console.log(result.join(''))
     return result.join('')
 }
